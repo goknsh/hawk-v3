@@ -1,0 +1,21 @@
+{
+	"name": "ark/hawk",
+	"type": "project",
+	"description": "",
+	"authors": [
+		{
+			"name": "Akaanksh Raj",
+			"email": "akaankshraj@gmail.com"
+		}
+	],
+	"require": {
+		"firebase/php-jwt": "^5.0",
+		"ext-json": "^1.6.0",
+		"ext-pdo": "^7.2",
+		"ext-curl": "^7.2",
+		"ext-openssl": "^7.2",
+		"php": "^7.2",
+		"guzzlehttp/guzzle": "^6.3",
+		"phpmailer/phpmailer": "^6.0"
+	}
+}
