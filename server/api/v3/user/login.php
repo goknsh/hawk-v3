@@ -18,8 +18,8 @@ switch ($_SERVER["REQUEST_METHOD"]) {
                             echo json_encode(array(
                                 "ok" => true,
                                 "token" => JWT::encode(array(
-                                    "iss" => "https://hawk.knsh.red/",
-                                    "aud" => "https://hawk.knsh.red/",
+                                    "iss" => "https://hawk.atanos.ga/",
+                                    "aud" => "https://hawk.atanos.ga/",
                                     "iat" => time(),
                                     "nbf" => time(),
                                     "exp" => time() + 21600,

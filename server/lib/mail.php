@@ -14,17 +14,17 @@ class Mail
             //Server settings
             $mail->SMTPDebug = 2; // Enable verbose debug output
             $mail->isSMTP(); // Set mailer to use SMTP
-            $mail->Host = "mail.knsh.red"; // Specify main and backup SMTP servers
+            $mail->Host = "mail.atanos.ga"; // Specify main and backup SMTP servers
             $mail->SMTPAuth = true; // Enable SMTP authentication
-            $mail->Username = "_mainaccount@knsh.red"; // SMTP username
+            $mail->Username = "_mainaccount@atanos.ga"; // SMTP username
             $mail->Password = "?#eCRPbK3I7f"; // SMTP password
             $mail->SMTPSecure = "ssl"; // Enable TLS encryption, `ssl` also accepted
             $mail->Port = 465; // TCP port to connect to
 
             //Recipients
-            $mail->setFrom("bot@hawk.knsh.red", "Hawk Bot");
+            $mail->setFrom("bot@hawk.atanos.ga", "Hawk Bot");
             $mail->addAddress($to, $name); // Add a recipient
-            $mail->addReplyTo("support@hawk.knsh.red", "Hawk Support");
+            $mail->addReplyTo("support@hawk.atanos.ga", "Hawk Support");
 
             //Content
             $mail->isHTML(true); // Set email format to HTML
